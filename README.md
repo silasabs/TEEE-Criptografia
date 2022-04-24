@@ -1,4 +1,5 @@
 # TEEE-Criptografia
+*Build and Analyze the Security of Cryptographic Systems.*
 <p align='justify'>Neste repositório pretendemos demonstrar os principais algoritmos de criptografia simétrica e de chave pública, complexidade algorítmica, princípios de teoria dos números e noções de criptografia quântica. Enfatizando a fundamentação matemática sobre a qual estes esquemas são construídos.</p>
 
 ## Alguns Tópicos que Serão Abordados
