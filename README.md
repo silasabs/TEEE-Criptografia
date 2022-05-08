@@ -4,3 +4,4 @@
 ## Alguns Tópicos que Serão Abordados
 - [Módulo 01: Cifragem Simétrica](https://github.com/silasabs/TEEE-Criptografia/tree/main/jupyter%20notebooks/M%C3%B3dulo%2001)
 - [Módulo 02: Cifragem Assimétrica](https://github.com/silasabs/TEEE-Criptografia/tree/main/jupyter%20notebooks/M%C3%B3dulo%2002)
+- [Anotações de Aulas](https://github.com/silasabs/TEEE-Criptografia/tree/main/notes%20in%20markdown)
