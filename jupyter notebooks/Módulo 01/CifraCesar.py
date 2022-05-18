@@ -4,6 +4,7 @@
 # Implementação do algoritmo de cifra de césar
 
 import string
+import re
 from hunspell import Hunspell
 
 # Cria um objeto de dicinário
@@ -32,19 +33,24 @@ def CaesarCipher(mod, text, shift):
 def BreakCipher():
     """
     Função que executa ataque de força bruta a cifra de césar
-    iterando sobre a chave e verificando se a nova cifra pertence
-    a um discionário válido. 
+    iterando sobre a chave e verificando se as palavras que estão
+    na nova cifra pertencem a um dicionário válido. 
     """
     flag = False
     key = 1
     
-    cipher = CaesarCipher(True, "Hello", 8)
+    cipher = CaesarCipher(True, "ml guys this is a secret message", 8)
 
     while(flag != True):
         newcipher = CaesarCipher(False, cipher, key)
         print("key: {} cipher: {}".format(key, newcipher))
         
-        if h.spell(newcipher): flag = True
+        cipher_split = newcipher.split()
+        for index in range(len(cipher_split)):
+            if h.spell(cipher_split[index]):
+                flag = True
+            else:
+                flag = False
         key += 1
 
 #print(CaesarCipher(True, LETRAS, 2))
