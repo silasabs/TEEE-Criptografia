@@ -38,6 +38,7 @@ Algumas observações que devemos levar em conta é que a criptografia apenas se
 - **Acesso e disponibilidade:** serviços devem ser acessíveis e disponíveis para os usuários.
 
 <center>Exemplo da comunicação entre Bob e Alice sendo interceptada por Darth</center>
+<br>
 
 <p align="center">
   <img src="https://i.postimg.cc/tCnd4ZK9/Alice-Bob.png">
