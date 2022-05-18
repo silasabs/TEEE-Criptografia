@@ -49,8 +49,7 @@ def BreakCipher():
         for index in range(len(cipher_split)):
             if h.spell(cipher_split[index]):
                 flag = True
-            else:
-                flag = False
+            else: flag = False
         key += 1
 
 #print(CaesarCipher(True, LETRAS, 2))
