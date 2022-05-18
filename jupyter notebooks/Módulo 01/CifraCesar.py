@@ -1,10 +1,15 @@
+# Aluno: Silas João Bezerra Soares
+# Disciplina: TEEE-Criptografia
+#
+# Implementação do algoritmo de cifra de césar
+
 import string
 from hunspell import Hunspell
 
-# Cria um objeto de discinário
+# Cria um objeto de dicinário
 h = Hunspell()
 
-#LETRAS = 'ABCDEFGHIJKLMNOPQRSTUV'
+#LETRAS = "ABCDEFGHIJKLMNOPQRSTUV"
 LETRAS = "CDEFGHIJKLMNOPQRSTUVWX"
 
 def CaesarCipher(mod, text, shift):
