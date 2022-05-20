@@ -4,7 +4,6 @@
 # Implementação do algoritmo de cifra de césar
 
 import string
-import re
 from hunspell import Hunspell
 
 # Cria um objeto de dicinário
