@@ -30,7 +30,6 @@ def MonoalfabeticaCipher(str, key, mod):
     return: mensagem decriptada ou encrptada [str]
     """
     cipher = ''
-    strings = []
 
     if mod == True:
         for index in str:
