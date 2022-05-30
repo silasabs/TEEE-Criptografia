@@ -2,6 +2,11 @@
 # Disciplina: TEEE-Criptografia
 #
 # Implementação do algoritmo de cifra de césar
+# A cifra de césar visa deslocar o alfabeto de tal forma que o caracter de interesse 
+# seja modificado pela mesma posição do caracter que esta no alfabeto modificado.
+# assim a nossa chave nada mais é que um número inteiro que serve para o deslocamento
+# do alfabeto.
+# Caso 1: key = 3 Normal: ABCDEFGHIJKLMNOPQRSTUVWXYZ Cifrado: DEFGHIJKLMNOPQRSTUVWXYZABC
 
 import string
 from hunspell import Hunspell

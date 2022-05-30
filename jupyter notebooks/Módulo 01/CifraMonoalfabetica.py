@@ -1,5 +1,10 @@
 # Aluno: Silas João Bezerra Soares
 # Disciplina: TEEE-Criptografia
+#
+# Implementação do Algoritmo de cifra monoalfabética.
+# A cifra monoalfabética se utiliza da cifra de césar como forma de chave
+# armazenando um alfabeto cifrado, dessa maneira o texto claro será substituido
+# pela sequência do alfabeto cifrado.
 
 import string
 import random
@@ -19,9 +24,9 @@ def KeyMonoCipher():
 
     return string.ascii_lowercase.translate(table)
 
-def MonoalfabeticaCipher(str, key, mod):
+def MonoAlfabeticaCipher(str, key, mod):
     """
-    Função responsável por enciptar ou decriptar utilizando a cifragem monoalfabética.
+    Função responsável por encriptar ou decriptar utilizando a cifragem monoalfabética.
 
     param str: texto claro ou texto cifrado [str]
     param key: alfabeto aleatório [str]
@@ -50,5 +55,5 @@ key = KeyMonoCipher()
 
 print("key: " + key)
 print("plaintext: " + LETRAS)
-print("cipher: " + MonoalfabeticaCipher(LETRAS, key, True))
-print("decrypted: " + MonoalfabeticaCipher(LETRAS, key, False))
+print("cipher: " + MonoAlfabeticaCipher(LETRAS, key, True))
+print("decrypted: " + MonoAlfabeticaCipher(LETRAS, key, False))
